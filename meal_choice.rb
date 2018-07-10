@@ -8,6 +8,22 @@ end
 
 
 
+def breakfast(cereal="frosted flakes")
+  "Morning is the best time for #{cereal}!"
+end 
+breakfast
+
+def lunch(sandwich="grilled cheese")
+ "Noon is the best time for #{sandwich}!"
+end 
+lunch
+
+def dinner(fish="salmon")
+  "Evening is the best time for #{fish}!"
+end
+dinner
+
+
 
 
 
@@ -16,6 +32,8 @@ puts snacks("Swedish fish")
 ## This returns "Any time, is the right time for Sweedish fish!"
 
 # call your methods here
+
+
 
 
 # Call your methods without any arguments here
